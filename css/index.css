@@ -175,20 +175,46 @@ h2 ,.sectionHeading{
 /****************************************************/
 /* Footer                                           */
 /****************************************************/
+.footer-container{
+  /* position: fixed; */
+  left: 0;    
+  bottom: 0;
+  width: 100%;
+  background-color: #F8BABF;
+  color: black;
+  font-family: "Monserratt",sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+  margin-top: 30px;
+  text-align: center;
+}
 
+.footer-tittle{
+  height: 20px;
+  margin-top: 20px;
+}
+
+.footer-icons{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.img-footer{
+  max-width: 31%;
+  height:auto;
+}
+
+.footer-choices{
+  height: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
 
 /* STYLES FOR TEMPLATE*/
 .dropdown-menu {
   left: -97px;
 }
-footer {
-  position: absolute;
-  width: 100%;
-  height: 60px;
-  line-height: 60px;
-  background-color: #F8BABF;
-  margin-top: 30px;
-}
+
 .cardContainer {
   margin-top: 20px;
 }
