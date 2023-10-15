@@ -17,7 +17,7 @@ p {
 .customNav {
   position: fixed;
   width: 100%;
-  background-color: #F68714 !important;
+  background-color: #F8BABF;
   background-size: cover;
   z-index: 10;
 }
@@ -27,21 +27,11 @@ p {
 }
 .navbar-brand img {
   padding-right: 10px;
+  padding-left: 20px;
   width: 110px;
 }
 .nav-item {
   margin: 0px 15px;
-}
-
-/* Navigation dropdown menu */
-.dropdown-menu {
-  background-color: #80CC2A !important;
-  background-size: cover;
-}
-.dropdown-item:focus, .dropdown-item:hover {
-    color: #80CC2A;
-    text-decoration: none;
-    background:#F8BABF; 
 }
 
 /* Navigation links */
@@ -54,80 +44,67 @@ p {
 }
 
 /****************************************************/
-/* Jumbotron - Hero Section                         */
+/* Hero Section                                     */
 /****************************************************/
-.jumbotron {
-  background-image: url(../images/Welcome1.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: calc(100vh - 25px);
+.hero-section {
+  background-color: white;
+  height: calc(100vh - 30px);
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
+  font-family: "Monserratt",sans-serif;
+  padding-top: 100px;
 }
 
-/* Jumbotron copy */
-.jumboCopy {
-  width: 60%;
-  min-width: 500px;
-  max-width: 1000px;
-  color:black;
+.hero-row{
+  width: 1500px;
+  align-items: center;
+}
+
+.hero-tittle{
+  font-family: "Monserratt",sans-serif;
+  font-size: 50px;
+  font-weight: 800;
   text-align: center;
-}
-
-.jumboCopy .lead{
-text-align: center;
-font-weight: 900;
-font-size: 25px;
-}
-
-.hopBackground{
-  margin: 0px 0px 32px;
-  padding: 64px 32px;
 }
 
 .buttons{
   text-align: center;
 }
 
-.hero-button-signup{
-  background-color: white;
-  border: 3px solid #80CC2A;
-  border-radius: 10px;
-  box-sizing: border-box;
-  color:black;
-  font-family: "Monserratt",sans-serif;
-  font-size: 17px;
+.carrot-button{
+  background: rgb(255,135,0);
+  background: linear-gradient(90deg, rgba(255,135,0,1) 0%, rgba(255,135,0,1) 11%, rgba(201,106,0,1) 12%, rgba(255,135,0,1) 13%, rgba(255,135,0,1) 26%, rgba(201,106,0,1) 27%, rgba(255,135,0,1) 28%, rgba(255,135,0,1) 42%, rgba(207,110,0,1) 43%, rgba(255,135,0,1) 44%, rgba(255,135,0,1) 64%, rgba(201,106,0,1) 65%, rgba(255,135,0,1) 66%, rgba(255,135,0,1) 85%, rgba(201,106,0,1) 86%, rgba(255,135,0,1) 87%);
+  background: linear-gradient();
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  font-family: 'Monserratt', sans-serif;
   font-weight: 800;
-  /* letter-spacing: 0.08em; */
-  line-height: 1.47059;
-  padding: 4px 15px;
-  text-align: center;
+  color:black;
   vertical-align: baseline;
-  margin-top: 45px;
+  margin-top: 30px;
   margin-right: 5px;
+  margin-bottom: 25px;
+}
+
+.carrot-button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .hero-button-login{
   background-color: #80CC2A;
-  border: 3px solid #80CC2A;
-  border-radius: 10px;
-  box-sizing: border-box;
-  color: black;
-  font-family: "Monserratt",sans-serif;
-  font-size: 17px;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  font-family: 'Monserratt', sans-serif;
   font-weight: 800;
-  /* letter-spacing: 0.08em; */
-  line-height: 1.47059;
-  padding: 4px 15px;
-  text-align: center;
+  color:black;
   vertical-align: baseline;
-  margin-top: 45px;
-  margin-left: 5px;
-}
-
-.hero-button-signup:hover{
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  margin-top: 30px;
+  margin-right: 5px;
+  margin-bottom: 25px;
 }
 
 .hero-button-login:hover{
@@ -135,58 +112,214 @@ font-size: 25px;
 }
 
 /****************************************************/
+/* Sections                                         */
+/****************************************************/
+.content-section {
+  background-color: white;
+  height: calc(100vh - 350px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Monserratt",sans-serif;
+  padding-bottom: 30px;
+}
+
+.content-section-innovate {
+  height: calc(100vh - 150px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Monserratt",sans-serif;
+  padding-bottom: 30px;
+  padding-top: 100px;
+}
+
+.section-row{
+  width: 1500px;
+}
+
+.section-row-innovate{
+  width: 1500px;
+  align-items: center;
+}
+
+.section-tittle{
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  color: #F68714;
+  font-family: "Borsok",sans-serif;
+  letter-spacing: 0.08em;
+  padding-top: 60px;
+}
+
+.section-tittle-innovate{
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  color: black;
+  font-family: "Borsok",sans-serif;
+  letter-spacing: 0.08em;
+}
+
+.section-text{
+  font-family: "Monserratt",sans-serif;
+  text-align:left;
+  font-size:20px;
+  font-weight: 600;
+  padding-left: 90px;
+  padding-right: 80px;
+  color:black;
+}
+
+/****************************************************/
 /* Cards                                            */
 /****************************************************/
-.content {
+.card-content-section {
   padding: 50px;
+  background-color: #e7f5d6;
+  height: calc(100vh - 150px);
+  /* height: calc(100vh - 290px); */
+  width: 100%;
 }
 .sectionHeading {
   text-align: center;
 }
-.showsNear  {
-  padding: 0px 30px 30px 30px;
-}
+
 .cardContainer {
-  text-align: center; 
+  text-align: center;  
 }
 
-/****************************************************/
-/* Content                                          */
-/****************************************************/
-.sideAccent {
-  background: #80CC2A;
-  width: 15px;
+.card{
+  background-color:#e7f5d6;
 }
-.imageContainer img {
+
+#card-section-tittle{
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  color:black;
+  font-family: "Borsok",sans-serif;
+  letter-spacing: 0.08em;
+  padding-top: 60px;
+}
+
+.card-tittle{
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  color:black;
+  font-family: "Monserratt",sans-serif;
+  padding-top: 20px;
+}
+.card-body{
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  color:black;
+  font-family: "Monserratt",sans-serif;
+  padding-top: 20px;  
+}
+
+.card-img-top{
+  width:60%;
+  height: 60%;
+  object-fit: cover;  
+}
+
+.card-container{
+  border-color: #F68714;
+  border-width: 2px;
+  border-radius: 20px;
+}
+
+.text-over-img1{
+  z-index: 1;
+  font-size:20px;
+  color:black;
+  font-family: "Monserratt",sans-serif;
+  margin-top: -210px;
+}
+
+.text-over-img2{
+  z-index: 1;
+  font-size:20px;
+  color:black;
+  font-family: "Monserratt",sans-serif;
+  margin-top: -200px;
+}
+
+.text-over-img3{
+  z-index: 1;
+  font-size:20px;
+  color:black;
+  font-family: "Monserratt",sans-serif;
+  margin-top: -210px;
+}
+
+
+/****************************************************/
+/* Last Message Section                                          */
+/****************************************************/
+
+.content-section-last {
+  height: calc(100vh - 50px);
   width: 100%;
-}
-.imageContainer {
-  padding: 30px;
-}
-.valueProp {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Monserratt",sans-serif;
+  padding-bottom: 30px;
+  padding-top: 40px;
 }
 
-h2 ,.sectionHeading{
-  margin-bottom: 40px;
+.section-tittle-last{
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  color: black;
+  font-family: "Borsok",sans-serif;
+  letter-spacing: 0.08em;
+}
+
+/****************************************************/
+/* Animation                                        */
+/****************************************************/
+.animated-gif{
+  width: 100%;
+  height:100%;
+}
+
+.animated-gif-bunny{
+  width: 70%;
+  height: 70%;  
+}
+
+.video-section{
+  object-fit: fill;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
 }
 
 /****************************************************/
 /* Footer                                           */
 /****************************************************/
 .footer-container{
-  /* position: fixed; */
   left: 0;    
   bottom: 0;
-  width: 100%;
+  width: 100vm;
+  padding-left: 0;
   background-color: #F8BABF;
+  background-size: cover;
   color: black;
   font-family: "Monserratt",sans-serif;
   font-size: 15px;
   font-weight: 800;
   margin-top: 30px;
-  text-align: center;
+  text-align: center;  
 }
 
 .footer-tittle{
@@ -211,9 +344,6 @@ h2 ,.sectionHeading{
 }
 
 /* STYLES FOR TEMPLATE*/
-.dropdown-menu {
-  left: -97px;
-}
 
 .cardContainer {
   margin-top: 20px;

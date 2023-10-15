@@ -21,62 +21,126 @@
 <body>
 
   <!-- Navigation bar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
-    <a class="navbar-brand" href="#"><img src="./images/HTHLogo.png">Hop to Habit</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <nav class="navbar navbar-expand-lg customNav">
+    <a class="navbar-brand" href="#"><img src="./images/HTHLogo.png"></a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">My Profile <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">FAQ's <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Contact Us</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">About Us</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#cando">What can we do?</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#better">Why are we better?</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">More information</a>
-          </div>
       </ul>
     </div>
   </nav>
   <!-- End navigation bar -->
 
-  <!-- Jumbotron -->
-  <!-- <div class="jumbotron rockBackground">  -->
-  <div class="jumbotron hopBackground">
-    <div class="jumboCopy">
-      <h1 class="display-4">HOP TO HABIT</h1>
-      <p class="lead">Transforming homework stress into sucess</p>
-      <div class="buttons">
-        <a class="btn hero-button-signup" href="#" role="button">Sign up</a>
-        <a class="btn hero-button-login" href="#" role="button">Log in</a>
+  <!-- Hero section -->
+  <div class="container-fluid hero-section">
+    <div class="row hero-row">
+
+      <div class="col-lg-6">
+        <p class="hero-tittle">Building Habits<br> One <span style="color:#F68714">HOP</span> <br>at a Time</p>
+        <div class="buttons">
+          <a class="btn carrot-button" href="#" role="button">Sign up</a>
+          <a class="btn hero-button-login" href="#" role="button">Log in</a>
+        </div>
       </div>
+
+      <div class="col-lg-6 video-section">
+        <div>
+          <img src="./gifs/hth-gif-xlg-nb.gif" class="animated-gif">
+        </div>
+      </div>
+
     </div>
   </div>
-  <!-- End jumbotron -->
+  <!-- End Hero Section -->
+
+  <!-- Time management section -->
+  <div class="container-fluid content-section">
+    <div class="row section-row">
+
+      <div class="col-lg-6">
+        <p class="section-tittle">TIME MANAGEMENT<BR>SKILLS PRIORITIZED</p>
+        <div class="section-text">
+          <p>With Hop to Habit, you’ll be able to assign daily timeframes for
+            assigned tasks to enable your little one to learn the value of time
+            management skills; allowing them to break tasks into smaller, more
+            manageable segments.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-6 video-section">
+        <div>
+          <img src="./gifs/time-gif-lg-nb.gif" class="animated-gif">
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- End Time management Section -->
+
+  <!-- Accomplishements management section -->
+  <div class="container-fluid content-section">
+    <div class="row section-row">
+
+      <div class="col-lg-6 video-section">
+        <div>
+          <img src="./gifs/accomplish-gif-lg-nb.gif" class="animated-gif">
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <p class="section-tittle">ACCOMPLISHEMENTS<BR>DESERVE REWARDS</p>
+        <div class="section-text">
+          <p>Our fun and interactive reward system for task completion makes it easy
+            to establish a routine for your little one - motivating them to stay on track
+            has never been easier! </p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- End accomplihments Section -->
+
+  <!-- Monitor section -->
+  <div class="container-fluid content-section">
+    <div class="row section-row">
+
+      <div class="col-lg-6">
+        <p class="section-tittle">MONITOR<BR>PROGRESS</p>
+        <div class="section-text">
+          <p>Our Progress Report Dashboard is the one stop shop to stay up to date on
+            your little one’s assigned tasks. It creates a streamlined process to
+            prioritize important tasks or upcoming deadlines in addition to offering
+            praise or support when needed to help them hop to success!</p>
+        </div>
+      </div>
+
+      <div class="col-lg-6 video-section">
+        <div>
+          <img src="./gifs/progress-lg.gif" class="animated-gif">
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- End Monitor Section -->
 
   <!-- Cards -->
-  <div class="container-fluid content">
-    <h2 class="sectionHeading" id="cando">What can we do?</h2>
-    <div class="row showsNear">
+  <div class="container-fluid card-content-section">
+    <h2 class="sectionHeading" id="card-section-tittle">Why are we better?</h2>
+    <div class="row ">
 
       <!-- Card 1 -->
       <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-        <div class="card">
-          <img src="./images/DailyTimeframe.png" class="card-img-top" alt="...">
+        <div class="card border-0">
+          <img src="./images/card1-form.png" class="card-img-top img-fluid mx-auto d-block" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Daily Timeframe</h5>
-            <p class="card-text">Establish a daily timeframe by breaking tasks into smaller,
-              more manageable segments!</p>
+            <p class="text-over-img1">We Are Here<br> to Help!</p>
           </div>
         </div>
       </div>
@@ -84,12 +148,10 @@
 
       <!-- Card 2 -->
       <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-        <div class="card">
-          <img src="./images/DailyRoutine.png" class="card-img-top" alt="...">
+        <div class="card border-0">
+          <img src="./images/card2-form.png" class="card-img-top img-fluid mx-auto d-block" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Daily Routine</h5>
-            <p class="card-text">Encourage your child to establish a daily routine by offering small rewards as
-              motivation.</p>
+            <p class="text-over-img2">We Use <br>Methods that work!</p>
           </div>
         </div>
       </div>
@@ -97,148 +159,111 @@
 
       <!-- Card 3 -->
       <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-        <div class="card">
-          <img src="./images/MonitorProgress.png" class="card-img-top" alt="...">
+        <div class="card border-0">
+          <img src="./images/card3-form.png" class="card-img-top img-fluid mx-auto d-block" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Monitor Progress</h5>
-            <p class="card-text">Monitor your child's progress at any time to offer praise or provide assistance
-              if needed.</p>
+            <p class="text-over-img3">We Want to <br>Reduce Your <br>Stress</p>
           </div>
         </div>
       </div>
       <!-- End card 3 -->
+
     </div>
   </div>
   <!-- End cards -->
 
-  <!-- Content -->
-  <div class="container-fluid content">
-    <h2 class="sectionHeading" id="better">Why are we better?</h2>
+  <!-- Innovative section -->
+  <div class="container-fluid content-section-innovate">
+      <div class="row section-row-innovate">
 
-    <!-- Row 1 -->
-    <div class="row valueProp">
-      <div class="sideAccent">
-      </div>
-      <div class="imageContainer col-3">
-        <img src="./images/HereToHelp.png">
-      </div>
-      <div class="text col-8">
-        <h3>We are here to help!</h3>
-        <p>
-          We uncovered a recurring challenge: when faced with procrastination-related homework situations,
-          children experience anxiety due to looming deadlines, while parents feel the added stress of juggling
-          yet another responsibility.
-          Parents express a genuine desire to support their school-age kids in developing effective time
-          management skills and finding the right way to motivate them. <br> <br>To address this, we have developed
-          a tool that breaks down tasks into manageable daily chunks and incorporates a rewarding system to
-          motivate task completion. This could lead to not only happier children who are self-motivated and
-          grasp the essence of time management, but also happier parents witnessing the positive development
-          of their children's work ethic. Striking a balance between homework and fun becomes achievable and
-          fosters a healthier and more harmonious family dynamic.
-        </p>
-        <a href="#" class="btn btn-success">Contact Us
-        </a>
-      </div>
-    </div>
-    <!-- End row 1 -->
+        <div class="col-lg-6 video-section">
+          <div>
+            <img src="./gifs/innovative-gif-lg-nb.gif" class="animated-gif">
+          </div>
+        </div>
 
-    <!-- Row 2 -->
-    <div class="row valueProp">
-      <div class="sideAccent">
-      </div>
-      <div class="imageContainer col-3">
-        <img src="./images/MethodsThatWork.png">
-      </div>
-      <div class="text col-8">
-        <h3>We use methods that work!</h3>
-        <p>
-          We are developing Hop to Habit to help parents of school-age children navigate the recurring
-          challenge of homework-related stress and procrastination. Our innovative tool breaks down tasks
-          into manageable daily chunks and incorporates a rewarding system, transforming homework stress
-          into success. Our approach is grounded in addressing the genuine desire expressed by parents to
-          support their kids in developing effective time management skills.
-
-          So let’s 'Hop to Habit'—where achieving a balance between homework and fun becomes not
-          just a possibility, but a reality.
-        </p>
-        <a href="#" class="btn btn-success">Learn More</a>
-      </div>
-    </div>
-    <!-- End row 2 -->
-
-    <!-- Row 3 -->
-    <div class="row valueProp">
-      <div class="sideAccent">
-      </div>
-      <div class="imageContainer col-3">
-        <img src="./images/ReduceStress.png">
-      </div>
-      <div class="text col-8">
-        <h3>We want to reduce your stress!</h3>
-        <p>
-          We've gained valuable insights into the challenges faced by parents and children in managing
-          homework-related stress. Parents expressed a sincere desire to aid their school-age kids in
-          developing effective time management skills. The struggle intensifies with mounting academic
-          demands and the need to motivate children effectively. Our users want a solution that simplifies
-          tasks and fosters positive work habits. By understanding these needs, we aim to create a user-centric
-          tool that not only reduces stress for both parents and kids, but also cultivates a sense of
-          accomplishment, contributing to a happier and more balanced family life.
-        </p>
-        <a href="#" class="btn btn-success">Contact Us</a>
-      </div>
-    </div>
-    <!-- End row 3 -->
-
-  </div>
-  <!-- End content -->
-
-  <!-- Footer -->
-   <div class="container-fluid footer-container">
-    <div class="row">
-      <div class="col-sm-12">
-        <div class="footer-tittle">Follow us</div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="footer-icons">
-          <img src="./images/facebook-sm.png">
-          <img src="./images/tweeter-sm.png">
-          <img src="./images/Pinterest-sm.png">
+        <div class="col-lg-6">
+          <p class="section-tittle-innovate">THE INNOVATIVE &<br>COLLABORATIVE<br>TOOL YOU NEED</p>
+          <div class="section-text">
+            <p>Hop to Habit creates a seamless process for you and your little one to be able
+              to manage project and task deadlines. Our simplistic approach creates ease for
+              both busy parents and kids!</p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-md-3 footer-choices">
-        About Us
-      </div>
-      <div class="col-md-2 footer-choices">
-        Privacy Policy
-      </div>
-      <div class="col-md-2 footer-choices">
-        FAQ's
-      </div>
-      <div class="col-md-2 footer-choices">
-        Need Help?
-      </div>
-      <div class="col-md-3 footer-choices">
-        Contact Us
-      </div>
-    </div>
   </div>
-  <!-- End footer -->
+ 
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+  <!-- End Innovative Section -->
+
+  <!-- Last message section -->
+  <div class="container-fluid content-section-last">
+      <div class="row section-row text-center">
+
+        <div class="col-lg-12">
+          <p class="section-tittle-last"><span style="color:#F68714">HOP TO HABIT</span> TURNS HOMEWORK<br>STRESS
+            INTO <span style="color:#F68714">SUCCESS</span>!</p>
+          <a class="btn carrot-button" href="#" role="button">Sign up</a>
+        </div>
+
+        <div class="col-lg-12">
+          <div class="video-section">
+            <div>
+              <img src="./gifs/bunny-gif-lg-nb.gif" class="animated-gif-bunny">
+            </div>
+          </div>
+        </div>
+
+      </div>
+  </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid footer-container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="footer-tittle">Follow us</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="footer-icons">
+            <img src="./images/facebook-sm.png">
+            <img src="./images/tweeter-sm.png">
+            <img src="./images/Pinterest-sm.png">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 footer-choices">
+          About Us
+        </div>
+        <div class="col-md-2 footer-choices">
+          Privacy Policy
+        </div>
+        <div class="col-md-2 footer-choices">
+          FAQ's
+        </div>
+        <div class="col-md-2 footer-choices">
+          Need Help?
+        </div>
+        <div class="col-md-3 footer-choices">
+          Contact Us
+        </div>
+      </div>
+    </footer>
+    <!-- End footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
