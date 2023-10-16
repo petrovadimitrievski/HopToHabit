@@ -116,7 +116,7 @@ p {
 /****************************************************/
 .content-section {
   background-color: white;
-  height: calc(100vh - 350px);
+  /* height: calc(100vh - 350px); */
   width: 100%;
   display: flex;
   align-items: center;
@@ -126,7 +126,7 @@ p {
 }
 
 .content-section-innovate {
-  height: calc(100vh - 150px);
+  /* height: calc(100vh - 150px); */
   width: 100%;
   display: flex;
   align-items: center;
@@ -180,8 +180,7 @@ p {
 .card-content-section {
   padding: 50px;
   background-color: #e7f5d6;
-  height: calc(100vh - 150px);
-  /* height: calc(100vh - 290px); */
+  /* height: calc(100vh - 150px); */
   width: 100%;
 }
 .sectionHeading {
@@ -265,7 +264,7 @@ p {
 /****************************************************/
 
 .content-section-last {
-  height: calc(100vh - 50px);
+  /* height: calc(100vh - 50px); */
   width: 100%;
   display: flex;
   align-items: center;
