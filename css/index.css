@@ -296,6 +296,11 @@ p {
   height: 70%;  
 }
 
+.animated-gif-progress{
+  width: 65%;
+  height: 65%;  
+}
+
 .video-section{
   object-fit: fill;
   align-items: center;
